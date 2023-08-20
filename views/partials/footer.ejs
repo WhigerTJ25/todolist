@@ -1,0 +1,40 @@
+<% locals.nt.forEach(element => { %>
+  <div class="item">
+    <input type="checkbox"> 
+    <P><%= element %></P>
+</div>
+<% }); %>
+
+
+<form class="item" action="/submit" method="post">
+  <input type="text" name="newItem" placeholder="New Item" autocomplete="off" >
+  <button type="submit" style="border-radius: 50%;   background-color: #a683e3; min-height: 50px;
+  width: 50px;  font-size: 30px; border-width: 0;  " name="list" value=""  >+</button>
+</form>
+</div>
+</main>
+
+<footer>
+  <ul class="menu">
+
+    <li><a href="#"><ion-icon name="logo-facebook" ></ion-icon></a></li>
+    <li><a href="https://twitter.com/ThejusJinu"><ion-icon name="logo-twitter" target="_blank"></ion-icon></a></li>
+    <li><a href="https://www.linkedin.com/in/thejus-jayakumar-522844248/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B6%2BEDg0KySleZwjY4sIkbfw%3D%3D" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+    <li><a href="https://www.instagram.com/thejus_jk_24/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+  </ul>
+
+  <ul class="menu">
+    <li><a href="/">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Team</a></li>
+    <li><a href="https://www.instagram.com/thejus_jk_24/">Contact</a></li>
+  </ul>
+  <p class="copyright"> Made by TJ.</p>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
